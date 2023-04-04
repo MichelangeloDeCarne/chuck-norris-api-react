@@ -16,7 +16,7 @@ function Button(props) {
 
   return (
     <div className={"Button"}>
-        <button className={"Button" + (props.variant!==undefined ? " disabled" : "")} id={props.id} onClick={onBtnClick}>{props.children}</button>
+        <button class="Button" className={"Button" + (props.variant!==undefined ? " disabled" : "")} id={props.id} onClick={onBtnClick}>{props.children}</button>
     </div>
   )
 }

@@ -4,7 +4,7 @@ function Title() {
 
     return (
         <div className="Title">
-           
+           Chuck-Norris-Api-React
         </div>
     )
 }
