@@ -5,10 +5,12 @@ body {
 
 select{
   
-  left: 38.06%;
-  right: 41.32%;
-  top: 86.82%;
-  bottom: 6.64%;
+  height: 67px;
+width: 297px;
+left: 571px;
+top: 889px;
+border-radius: 0px;
+
   
   background: #23F0C7;
 }
@@ -16,8 +18,8 @@ select{
 #JokeText {
   width: 1230px;
   height: 100px;
-      Top: 10;
-      Left: 105px;
+      top: 10;
+      left: 105px;
 
 background: #EF767A;
 border-radius: 100px;

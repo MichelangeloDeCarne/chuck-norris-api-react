@@ -41,9 +41,9 @@ function App() {
     <div className="App">
       <Title>Chuck Norris Joke Generator</Title>   
             <Button id='generate' callback={generateJoke}>Generate Joke</Button>
-            <Dropdown id='dropdown' values={categories}></Dropdown>      
             <JokeText id='JokeText'>{joke}</JokeText>
           <Button id='clipboard' callback={copyJoke} variant={clicked === true ? undefined : "disabled"}>Copy to clipboard</Button>
+          <Dropdown id='dropdown' values={categories}></Dropdown>   
     </div>
   )
 }
